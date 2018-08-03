@@ -2,10 +2,10 @@ Rails.application.routes.draw do
   
   resources :student, only: [:index, :new, :create, :show]
 
-  get '/coupons', to: 'coupons#index', as: 'coupons'
-  get '/coupons/new', to: 'coupons#new', as: 'new_coupon'
-  post '/coupons', to: 'coupons#create'
-  get '/coupons/:id', to: 'coupons#show', as: 'coupon'
+  #get '/coupons', to: 'coupons#index', as: 'coupons'
+  #get '/coupons/new', to: 'coupons#new', as: 'new_coupon'
+  #post '/coupons', to: 'coupons#create'
+  #get '/coupons/:id', to: 'coupons#show', as: 'coupon'
   
   
   # The priority is based upon order of creation: first created -> highest priority.
