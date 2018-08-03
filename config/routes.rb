@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  resources :students, only: [:index]
+  resources :coupons, only: [:index, :new, :create, :show]
 
   get '/coupons', to: 'coupons#index', as: 'coupons'
   #get '/coupons/new', to: 'coupons#new', as: 'new_coupon'
